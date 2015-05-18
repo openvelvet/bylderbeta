@@ -14,3 +14,7 @@
  *= require "animate.css.scss"
  *= require_self
  */
+
+ body {
+ 	width: 100%;
+ }
