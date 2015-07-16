@@ -1,0 +1,9 @@
+<form class="form-inline" role="form">
+                  <div class="form-group">
+                    <%= form_for(@page) do |f| -%>
+                        <%= f.email_field :email, class: "form-control", placeholder: "Enter your email" %>
+                  </div>
+                      <%= f.submit "Notify me", class: "button" %>
+                    <% end -%>
+                  <!-- <button type="submit" class="btn btn-primary">Notify me</button> -->
+                </form>
